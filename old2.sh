@@ -10,16 +10,12 @@
 # May be freely distributed and modified as needed,
 # as long as proper attribution is given.
 #
-
 #path to directory where script is saved
 script_dir="$(dirname $(readlink -f $0))"
-
 #where the stuff is
 script_url="https://raw.githubusercontent.com/MrChromebox/scripts/main/"
-
 #ensure output of system tools in en-us for parsing
 export LC_ALL=C
-
 #set working dir
 if grep -q "Chrom" /etc/lsb-release ; then
     # needed for ChromeOS/ChromiumOS v82+
