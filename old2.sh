@@ -83,12 +83,6 @@ fi
 #show menu
 
 trap 'check_unsupported' EXIT
-function check_unsupported() {
-    if [ "$isUnsupported" = true ]; then
-        IFS=$'\n'
-        echo "MrChromebox Firmware Utility didn't recognize your device" > /dev/stderr
-        echo "${troubleshooting_msg[*]}" > /dev/stderr
-    fi
-}
 
 menu_fwupdate
+
