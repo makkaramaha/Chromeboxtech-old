@@ -81,5 +81,5 @@ if [ "$prelim_setup_result" -ne 0 ]; then
 fi
 
 #show menu
-
+}
 menu_fwupdate
