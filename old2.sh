@@ -83,5 +83,3 @@ fi
 #show menu
 
 menu_fwupdate
-
-
