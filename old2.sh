@@ -82,7 +82,6 @@ fi
 
 #show menu
 
-trap 'check_unsupported' EXIT
-
 menu_fwupdate
+
 
